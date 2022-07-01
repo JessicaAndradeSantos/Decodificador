@@ -1,0 +1,85 @@
+*{
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height:150%;
+}
+body {
+
+    background-color: #46a2b1;
+    background-image: url("imagens/confetes.png");
+    
+   
+}
+ .main {
+  
+     display: flex;
+     margin-left: 80px;
+     margin-bottom: 50px;
+
+ }
+
+ .input-texto {
+    margin-top:  90px;
+ }
+
+ .mensagem {
+    position: relativece;
+    margin-top: 20px;
+    margin-left:  90px;
+    
+    background-image: url("imagens/confeiteira.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    
+    
+   
+ }
+ .botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+   
+ }
+
+.encriptar {
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0 35px;
+    margin-left: 40px;
+    background-color: rgb(243, 101, 177);
+    color:yellow;
+    border-radius: 20px;
+    
+}
+.desencriptar {
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0 35px;
+    margin-left: 60px;
+    background-color: rgb(19, 194, 224);
+    color:rgb(6, 155, 6);
+    border-radius: 20px;
+   
+}
+
+.copiar {
+
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0 35px;
+    margin-left:100px;
+    background-color: rgb(77, 41, 17);
+    color:white;
+    border-radius: 20px;
+
+
+
+}
+
+ .informacao {
+    font-size: 15px;
+ }
